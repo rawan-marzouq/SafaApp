@@ -1,0 +1,15 @@
+PODS:
+  - RESideMenu (4.0.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - RESideMenu (~> 4.0.7)
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+COCOAPODS: 0.39.0
