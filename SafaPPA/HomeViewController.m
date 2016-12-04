@@ -93,11 +93,10 @@
         // Handle response
         if (data.length > 0 && error == nil)
         {
-            NSError *error = nil;
+            NSError *error = nil; NSLog(@"data: %@",response);
             id jsonObjects = [NSJSONSerialization JSONObjectWithData:data
-                                                             options:NSJSONReadingMutableContainers
+                                                             options:kNilOptions
                                                                error:&error];
-            
             
             NSLog(@"home: %@",jsonObjects);
             
